@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Essayer — Un petit défi par jour</title>
+<meta name="description" content="Essayer : chaque jour, un petit défi tourné vers les autres. On ne coche pas « réussi », on dit « J'ai essayé », et un cerisier grandit.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { color-scheme: light; --ink: #2e2a28; --soft: #6b625d; --vermilion: #b9442f;
+          --paper: #fbf7f0; --card: #fffdf9; --line: #ece3d6; --pink: #ef8da8; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--ink); background: var(--paper);
+         font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .serif { font-family: "New York", "Iowan Old Style", Georgia, serif; }
+  .hero { text-align: center; padding: 88px 24px 64px;
+          background:
+            radial-gradient(45% 40% at 78% 12%, rgba(239,141,168,.22), transparent 70%),
+            linear-gradient(180deg, #fbeef1 0%, var(--paper) 100%); }
+  .hero img { width: 96px; height: 96px; border-radius: 22px;
+              box-shadow: 0 8px 24px rgba(46,42,40,.12); }
+  h1 { font-size: 2.6rem; margin: 18px 0 10px; letter-spacing: -.5px; }
+  .tag { font-size: 1.2rem; color: var(--soft); max-width: 560px; margin: 0 auto 28px; }
+  .quote { font-style: italic; color: var(--vermilion); margin: 0 0 28px; }
+  .badge { display: inline-block; padding: 12px 22px; border-radius: 40px;
+           background: var(--vermilion); color: #fff; text-decoration: none; font-weight: 600; }
+  .grid { max-width: 900px; margin: 56px auto; padding: 0 24px;
+          display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+  .card h3 { margin: 0 0 8px; color: var(--vermilion); font-size: 1.05rem; }
+  .card p { margin: 0; color: var(--soft); font-size: .95rem; }
+  .support { max-width: 720px; margin: 0 auto 48px; padding: 32px 24px;
+             background: var(--card); border: 1px solid var(--line); border-radius: 16px; }
+  .support h2 { margin: 0 0 12px; }
+  .support h3 { color: var(--vermilion); margin: 24px 0 8px; font-size: 1.05rem; }
+  .support a, footer a { color: var(--vermilion); }
+  .support ul { padding-left: 20px; color: var(--soft); }
+  .support li { margin-bottom: 10px; }
+  footer { text-align: center; padding: 40px 24px; color: var(--soft); font-size: .85rem;
+           border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+  <section class="hero">
+    <img src="icon.png" alt="Icône d'Essayer">
+    <h1 class="serif">Essayer</h1>
+    <p class="tag">Chaque jour, un petit défi, souvent tourné vers les autres. On ne coche
+    pas « réussi » : on dit « J'ai essayé », et un cerisier grandit.</p>
+    <p class="quote serif">Essayer, c'est déjà réussir.</p>
+    <a class="badge" href="#">Bientôt sur l'App Store</a>
+  </section>
+
+  <div class="grid">
+    <div class="card"><h3>Un défi par jour</h3><p>Écrire un mot à quelqu'un, appeler une
+      personne perdue de vue, dire merci… Des centaines de petits défis, et des défis de
+      saison.</p></div>
+    <div class="card"><h3>Un cerisier qui grandit</h3><p>Chaque essai fait pousser l'arbre
+      et ses lianes. Il repart de zéro à chaque saison et atteint sa pleine forme en
+      30 essais.</p></div>
+    <div class="card"><h3>Les quatre saisons</h3><p>Fleurs de cerisier au printemps,
+      verdure l'été, érables rouges l'automne, neige l'hiver : le jardin suit le
+      calendrier.</p></div>
+    <div class="card"><h3>Sans pression</h3><p>Rien ne se perd si tu rates un jour. Un
+      rappel doux chaque matin avec le défi du jour, et c'est tout.</p></div>
+  </div>
+
+  <section class="support" id="support">
+    <h2 class="serif">Support et aide</h2>
+    <p><strong>Une question, un problème, une idée de défi ?</strong> Écris-nous à
+    <a href="mailto:cabbry@icloud.com">cabbry@icloud.com</a>, nous répondons sous
+    48 h ouvrées.</p>
+
+    <h3>Questions fréquentes</h3>
+    <ul>
+      <li><strong>Je ne reçois pas la notification du matin ?</strong> Vérifie dans
+      Réglages → Notifications → Essayer que les notifications sont autorisées, puis ouvre
+      l'appli une fois pour reprogrammer les rappels.</li>
+      <li><strong>Mon arbre est redevenu petit ?</strong> C'est normal : il repart de zéro
+      au début de chaque saison (1er mars, 1er juin, 1er septembre, 1er décembre).
+      Tous tes essais restent dans l'historique.</li>
+      <li><strong>Je peux valider plusieurs défis par jour ?</strong> Non, un seul : celui
+      du jour. Le lendemain, un nouveau défi t'attend.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Essayer — © 2026 Jr Cabbry ·
+    <a href="privacy.html">Politique de confidentialité</a> ·
+    <a href="mailto:cabbry@icloud.com">cabbry@icloud.com</a>
+  </footer>
+</body>
+</html>
