@@ -29,6 +29,10 @@
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
   .card h3 { margin: 0 0 8px; color: var(--vermilion); font-size: 1.05rem; }
   .card p { margin: 0; color: var(--soft); font-size: .95rem; }
+  .shots { display: flex; gap: 16px; overflow-x: auto; padding: 8px 24px 24px;
+           max-width: 1100px; margin: 0 auto; scroll-snap-type: x mandatory; }
+  .shots img { width: 220px; flex: none; border-radius: 28px; scroll-snap-align: center;
+               box-shadow: 0 8px 24px rgba(46,42,40,.12); }
   .support { max-width: 720px; margin: 0 auto 48px; padding: 32px 24px;
              background: var(--card); border: 1px solid var(--line); border-radius: 16px; }
   .support h2 { margin: 0 0 12px; }
@@ -49,6 +53,14 @@
     <p class="quote serif">Essayer, c'est déjà réussir.</p>
     <a class="badge" href="#">Bientôt sur l'App Store</a>
   </section>
+
+  <div class="shots">
+    <img src="screenshots/1_spring.png" alt="Le cerisier en fleurs au printemps" loading="lazy">
+    <img src="screenshots/2_autumn.png" alt="Le jardin en automne, avec les érables rouges" loading="lazy">
+    <img src="screenshots/3_summer.png" alt="Le jardin en été" loading="lazy">
+    <img src="screenshots/4_winter.png" alt="Le jardin sous la neige en hiver" loading="lazy">
+    <img src="screenshots/5_history.png" alt="L'historique des essais" loading="lazy">
+  </div>
 
   <div class="grid">
     <div class="card"><h3>Un défi par jour</h3><p>Écrire un mot à quelqu'un, appeler une
